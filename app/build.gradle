@@ -43,10 +43,6 @@ android {
     }
 
     buildTypes {
-        debug {
-            signingConfig signingConfigs.config
-        }
-
         release {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             minifyEnabled false
