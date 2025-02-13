@@ -42,7 +42,7 @@ android {
         exclude 'META-INF/DEPENDENCIES'
     }
 
-    signingConfigs {
+    #signingConfigs {
         config {
             keyAlias 'TVBoxOSC'
             keyPassword 'TVBoxOSC'
@@ -57,7 +57,8 @@ android {
         }
 
         release {
-            signingConfig signingConfigs.config
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            #signingConfig signingConfigs.config
             minifyEnabled false
         }
     }
