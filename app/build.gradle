@@ -42,15 +42,6 @@ android {
         exclude 'META-INF/DEPENDENCIES'
     }
 
-    #signingConfigs {
-        config {
-            keyAlias 'TVBoxOSC'
-            keyPassword 'TVBoxOSC'
-            storeFile file('../TVBoxOSC.jks')
-            storePassword 'TVBoxOSC'
-        }
-    }
-
     buildTypes {
         debug {
             signingConfig signingConfigs.config
