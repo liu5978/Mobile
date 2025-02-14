@@ -76,12 +76,12 @@
             android:layout_marginVertical="4dp"
             android:textIsSelectable="true"
             android:textColor="@color/text_sub_foreground"
-            android:text="WeChat：kukuqi6666"/>
+            android:text="WeChat：15703475978"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textIsSelectable="true"
             android:textColor="@color/text_sub_foreground"
-            android:text="QID：wnfng"/>
+            android:text="QID：1046277241"/>
 
 </LinearLayout>
